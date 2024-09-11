@@ -24,10 +24,22 @@ while True:
         print(resultado_suma)
         print("")
 
-    elif user_input == 3:
-        print("========================================")
-        print("")
-        num1_multiplicar = int(input("Ingrese el primer numero "))
-        num2_multiplicar = int(input("Ingrese el segundo numero "))
+        elif user_input == 2:
+        
+        num1_resta = int(input("ingresa el primer numero"))
+        num2_resta = int(input("ingresa el segundo numero"))
 
-        def multiplicar(num1_multiplicar, )
+        def resta(num1_resta, num2_resta):
+            return num1_resta - num2_resta
+            
+            resultado_resta = resta(num1_resta, num2_resta)
+            
+            print(resultado_resta)
+
+        elif user_input == 3:
+            print("========================================")
+            print("")
+            num1_multiplicar = int(input("Ingrese el primer numero "))
+            num2_multiplicar = int(input("Ingrese el segundo numero "))
+
+            def multiplicar(num1_multiplicar, )
