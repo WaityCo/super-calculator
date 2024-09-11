@@ -26,15 +26,17 @@ while True:
 
     elif user_input == 2:
         
-        num1_resta = int(input("ingresa el primer numero"))
-        num2_resta = int(input("ingresa el segundo numero"))
+        num1_resta = int(input("ingresa el primer numero "))
+        num2_resta = int(input("ingresa el segundo numero "))
 
         def resta(num1_resta, num2_resta):
             return num1_resta - num2_resta
             
         resultado_resta = resta(num1_resta, num2_resta)
-            
+
+        print("")    
         print(resultado_resta)
+        print("")
 
     elif user_input == 3:
         
@@ -47,5 +49,7 @@ while True:
             return num1_multiplicar * num2_multiplicar
         
         resultado_multiplicar = multiplicar(num1_multiplicar, num2_multiplicar)
-        
+
+        print("")
         print(resultado_multiplicar)
+        print("")
