@@ -4,6 +4,7 @@ while True:
     print("2. Restar")
     print("3. Multiplicar")
     print("4. Dividir")
+    print("5. Salir")
     print("========================")
 
     print("")
