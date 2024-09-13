@@ -54,3 +54,25 @@ while True:
         print("")
         print(resultado_multiplicar)
         print("")
+
+    elif user_input == 4:
+        
+        print("========================================")
+        print("")
+        num1_dividir = int(input("Ingrese el numero cual desea dividir "))
+        num2_dividir = int(input("Ingrese el numero por el cual desea dividir "))
+
+        def dividir(num1_dividir, num2_dividir):
+            return num1_dividir / num2_dividir
+        
+        resultado_dividir = dividir(num1_dividir, num2_dividir)
+
+        print("")
+        print(f"{resultado_dividir}")
+        print("")
+
+    elif user_input == 5:
+        break
+
+    else:
+        print("Ingrese los numeros correctos")
