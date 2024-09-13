@@ -72,7 +72,10 @@ while True:
         print("")
 
     elif user_input == 5:
+        print("")
+        print("Saliste de la calculadora!")
         break
 
     else:
         print("Ingrese los numeros correctos")
+        print("")
